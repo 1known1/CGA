@@ -7,7 +7,6 @@ int gd = DETECT,gm,i;
 using std::cout;
 float r,x,y,xc,yc,p,d;
 initgraph(&gd,&gm,"C:\\TC\\BGI");
-cout<<"Rehman Khan 34"<<endl;
 cout<<"Enter the radius of the circle: ";
 cin>>r;
 cout<<"Enter the center of the circle: ";
