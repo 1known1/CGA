@@ -7,7 +7,6 @@ int midx=319, midy=239;
 int main(){
 int gdriver=DETECT, gmode, x,y,r;
 initgraph(&gdriver, &gmode, "C:\\TC\\BGI");
-outtext("Rehman Khan 34");
 printf("Enter the Center of circle (x,y) : ");
 scanf("%d %d",&x,&y);
 printf("Enter the Radius of circle r : ");
