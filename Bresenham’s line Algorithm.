@@ -8,7 +8,6 @@ int main(){
 int gd=DETECT,gm,i;
 using std::cout;
 float x,y,x1,x2,y1,y2,dx,dy,e;
-cout<<endl<<"Rehman Khan 34 \n";
 cout<<"Enter the co-ordinates of starting point:";
 cin>>x1>>y1>>x2>>y2;
 initgraph(&gd,&gm,"C:\\TC\\BGI");
