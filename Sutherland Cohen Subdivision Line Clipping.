@@ -24,7 +24,6 @@ cin>>p1.x>>p1.y;
 cout<<"\nEnter x2 and y2\n";
 cin>>p2.x>>p2.y;
 initgraph(&gd,&gm,"c:\\turboc3\\bgi");
-outtext("Rehman Khan 34");
 drawwindow();
 delay(500);
 drawline(p1,p2);
@@ -70,19 +69,19 @@ PT setcode(PT p) //for setting the 4 bit code
 {
 PT ptemp;
 if(p.y<100)
-ptemp.code[0]='1'; //Top
+ptemp.code[0]='1'; 
 else
 ptemp.code[0]='0';
 if(p.y>350)
-ptemp.code[1]='1'; //Bottom
+ptemp.code[1]='1'; 
 else
 ptemp.code[1]='0';
 if(p.x>450)
-ptemp.code[2]='1'; //Right
+ptemp.code[2]='1'; 
 else
 ptemp.code[2]='0';
 if(p.x<150)
-ptemp.code[3]='1'; //Left
+ptemp.code[3]='1'; 
 else
 ptemp.code[3]='0';
 ptemp.x=p.x;
