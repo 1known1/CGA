@@ -10,7 +10,6 @@ maxx = getmaxx();
 midy = getmaxy() / 2;
 for(i = 0; i < maxx - 150; i = i + 5){
 cleardevice();
-outtextxy(20,10,"Rehman Khan 34");
 setcolor(WHITE);
 line(0,midy + 37, maxx,midy + 37);
 setcolor(YELLOW);
