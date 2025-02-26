@@ -6,7 +6,6 @@ main(){
 int gd=DETECT,gm;
 int poly[12]={350,450,350,410,430,400,350,350,300,430,350,450};
 initgraph(&gd,&gm,"C:\\TC\\BGI");
-outtextxy(250,0,"Rehman Khan 34 ");
 circle(100,100,50);
 outtextxy(75,170,"CIRCLE");
 rectangle(200,50,350,150);
