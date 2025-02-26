@@ -98,7 +98,6 @@ main(){
 int gd = DETECT,gm;
 char array[50];
 initgraph(&gd, &gm, "C:\\TURBOC3\\BGI");
-outtext("Rehman Khan 34");
 int color = getpixel(0,0);
 sprintf(array,"Color of pixel at (0,0)=%d",color);
 outtextxy(0,20,array);
@@ -121,7 +120,6 @@ int gd=DETECT,gm;
 initgraph(&gd,&gm,"C:\\TC\\BGI");
 circle(100,100,50);
 setcolor(YELLOW);
-outtext("Rehman Khan 34 \n");
 circle(200,200,50);
 getch();
 closegraph();
