@@ -4,7 +4,6 @@ A)
 main(){
 int gd = DETECT,gm;
 initgraph(&gd,&gm,"C:\\TC\\BGI");
-outtext("Rehman Khan 34:\n");
 arc(100,100,0,135,50);
 getch();
 closegraph();
@@ -20,7 +19,6 @@ int main() {
 int gd = DETECT, gm;
 int points[] = {320, 150, 420, 300, 250, 300,320, 150};
 initgraph(&gd, &gm, "C:\\TC\\BGI");
-outtext("Rehman Khan 34:\n");
 drawpoly(4, points);
 getch();
 closegraph();
@@ -35,7 +33,6 @@ C)
 main(){
 int gd = DETECT,gm;
 initgraph(&gd,&gm,"C:\TURBOC3\BGI");
-outtext("Rehman Khan 34:\n");
 outtextxy(0,20,"Press any key to close the graph");
 getch();
 closegraph();
@@ -51,7 +48,6 @@ D)
 main(){
 int gd = DETECT,gm;
 initgraph(&gd,&gm,"C:\TURBOC3\BGI");
-outtext(“Rehman Khan 34:\n");
 circle(100,100,80);
 getch();
 closegraph();
@@ -66,7 +62,6 @@ E)
 main(){
 int gd = DETECT,gm;
 initgraph(&gd,&gm,"C:\TURBOC3\BGI");
-outtext("Rehman Khan 34:\ ");
 outtextxy(0,20,"Press any key to close the graph");
 getch();
 cleardevice();
@@ -84,7 +79,6 @@ F)
 int main() {
 int gd = DETECT, gm;
 initgraph(&gd, &gm, "C:\\TURBOC3\\BGI");
-outtext("Rehman Khan 34:\n");
 setcolor(RED);
 setfillstyle(SOLID_FILL,YELLOW);
 circle(100,100,80);
