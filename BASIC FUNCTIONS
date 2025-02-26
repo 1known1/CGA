@@ -1,0 +1,135 @@
+A)
+#include<graphics.h>
+#include<conio.h>
+main(){
+int gd = DETECT,gm;
+initgraph(&gd,&gm,"C:\\TC\\BGI");
+outtext("Rehman Khan 34:\n");
+arc(100,100,0,135,50);
+getch();
+closegraph();
+return 0;
+}
+
+
+
+B)
+#include <graphics.h>
+#include <conio.h>
+int main() {
+int gd = DETECT, gm;
+int points[] = {320, 150, 420, 300, 250, 300,320, 150};
+initgraph(&gd, &gm, "C:\\TC\\BGI");
+outtext("Rehman Khan 34:\n");
+drawpoly(4, points);
+getch();
+closegraph();
+return 0;
+}
+
+
+
+C)
+#include<graphics.h>
+#include<conio.h>
+main(){
+int gd = DETECT,gm;
+initgraph(&gd,&gm,"C:\TURBOC3\BGI");
+outtext("Rehman Khan 34:\n");
+outtextxy(0,20,"Press any key to close the graph");
+getch();
+closegraph();
+return 0;
+}
+
+
+
+
+D)
+#include<graphics.h>
+#include<conio.h>
+main(){
+int gd = DETECT,gm;
+initgraph(&gd,&gm,"C:\TURBOC3\BGI");
+outtext(“Rehman Khan 34:\n");
+circle(100,100,80);
+getch();
+closegraph();
+return 0;
+}
+
+
+
+E)
+#include<graphics.h>
+#include<conio.h>
+main(){
+int gd = DETECT,gm;
+initgraph(&gd,&gm,"C:\TURBOC3\BGI");
+outtext("Rehman Khan 34:\ ");
+outtextxy(0,20,"Press any key to close the graph");
+getch();
+cleardevice();
+outtext("Press any key to edit");
+getch();
+closegraph();
+return 0;
+}
+
+
+
+F)
+#include <graphics.h>
+#include <conio.h>
+int main() {
+int gd = DETECT, gm;
+initgraph(&gd, &gm, "C:\\TURBOC3\\BGI");
+outtext("Rehman Khan 34:\n");
+setcolor(RED);
+setfillstyle(SOLID_FILL,YELLOW);
+circle(100,100,80);
+floodfill(100,100,RED);
+getch();
+closegraph();
+return 0;
+}
+
+
+
+
+G)
+#include<graphics.h>
+#include<conio.h>
+main(){
+int gd = DETECT,gm;
+char array[50];
+initgraph(&gd, &gm, "C:\\TURBOC3\\BGI");
+outtext("Rehman Khan 34");
+int color = getpixel(0,0);
+sprintf(array,"Color of pixel at (0,0)=%d",color);
+outtextxy(0,20,array);
+getch();
+closegraph();
+return 0;
+}
+
+
+
+
+
+
+H)
+#include<graphics.h>
+#include<conio.h>
+main()
+{
+int gd=DETECT,gm;
+initgraph(&gd,&gm,"C:\\TC\\BGI");
+circle(100,100,50);
+setcolor(YELLOW);
+outtext("Rehman Khan 34 \n");
+circle(200,200,50);
+getch();
+closegraph();
+return 0;
+}
